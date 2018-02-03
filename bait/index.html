@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"/>
+    <title>속았지? 케케케</title>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    </head>
+    <body>
+    <a id="kakao-link-btn" href="javascript:;">
+        <img src="//developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"/>
+    </a>
+    <script type='text/javascript'>
+        Kakao.init('36162e9ea12d1368aac31b5d272cf889')
+        Kakao.Link.createTalkLinkButton({
+            container:'#kakao-link-btn',
+            label:'이호성님이 선물과 메세지를 보냈습니다. \n자세한 내용은 선물함에서 확인해 주세요.',
+            image:{src:'http://postfiles2.naver.net/MjAxNzAzMDJfMjkz/MDAxNDg4NDY0NTY3MjYx.q1i8d9ZuDFjyrBQqSMLOqct_o5VsnV5lN5qSDQHL_TIg.CMF0GxJF7TSAhtYNsGp83yftlMQ1obWFlxL-feirVpgg.JPEG.leeso0122/1485136355006.jpg?type=w966',
+            width:'320',
+            height:'416'
+        },
+        webButton:{
+            text:'선물함으로 가기',
+            url:'http://sungcomet.s3-website.ap-northeast-2.amazonaws.com/fish.html'
+        }
+        })
+    </script>
+    </body>
+</html>
